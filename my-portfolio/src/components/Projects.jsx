@@ -4,6 +4,7 @@ import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import project2Image from '../assets/Project2.png';
 import project1Image from '../assets/Project1.png';
 import project3Image from '../assets/Project3.png';
+import project4Image from '../assets/Project4.png';
 import '../styles/Projects.css';
 
 const ProjectCard = ({ title, description, technologies, repoUrl, image }) => (
@@ -34,6 +35,13 @@ const Projects = () => {
       technologies: ["React", "CSS", "JavaScript", "HTML"],
       repoUrl: "https://github.com/kylehe77/PersonalPortfolio",
       image: project1Image
+    },
+    {
+      title: "AI Magic Studio",
+      description: "Empowering creativity through AI-driven tools, make content creator's life easier.",
+      technologies: ["React", "Typescript", "JavaScript", "Node.js","Express.js"],
+      repoUrl: "https://github.com/kylehe77/AI_Magic_Studio",
+      image: project4Image
     },
     {
       title: "Handwritten-Recognition Application",
